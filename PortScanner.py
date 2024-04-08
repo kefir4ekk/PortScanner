@@ -36,4 +36,4 @@ end_port = int(input('Enter end port - '))
 open_ports = scan(target, start_port, end_port)
 print(f"\nSummary: {len(open_ports)} open ports found on {target} - {', '.join([str(port) for port in open_ports])}")
 
-# This code scans ports from start_port to end_port on the specified target. Please note that port scanning он remote systems without permission from the system owner may violate security laws. Use this code only for testing on your own systems or with appropriate permission.
+# This code scans ports from start_port to end_port on the specified target. Please note that port scanning on remote systems without permission from the system owner may violate security laws. Use this code only for testing on your own systems or with appropriate permission.
